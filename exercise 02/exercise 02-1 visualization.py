@@ -5,9 +5,9 @@ import pandas as pd
 file_path = 'geometric-series_N100.dat'
 
 # Reading the file
-df = pd.read_csv(file_path, delimiter=' ')
+df = pd.read_csv(file_path, delimiter=',', encoding='utf-16')
 
-# Access the columns correctly
+# Access the columns
 index = df['index']
 series = df['sum']
 

@@ -41,8 +41,8 @@ int main()  {
     return 0;
 }
 
-/* Offensichtlich gehen bei Brüchen, welche nicht ohne Präzisionsfeher dargestellt werden können, 
-je Iteration immer weitere INformationen verloren, sodass irgendwann die Zahlen representation auf 0.5
+/* Offensichtlich gehen bei Brüchen, welche nicht ohne Präzisionsfehler dargestellt werden können, 
+je Iteration immer weitere Informationen verloren, sodass irgendwann die Zahlen representation auf 0.5
 konvergiert und schließlich bei 0 verbleibt. Die geschieht bei floats entsprechend schneller als bei doubles.
 Für Zahlen aus dem Raum der rationalen Zahlen ließe sich dies durch eine Bruchdarstellung verhindern,
 wobei ein Integer den Zähler und ein Integer den Nenner darstellte. Dies funktioniert, da Integer

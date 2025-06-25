@@ -2,7 +2,7 @@
 #include <vector>
 #include <iomanip>
 #include <random>
-using namespace std;
+using namespace std
 
 class Ding {
 public:
